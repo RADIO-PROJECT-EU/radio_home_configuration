@@ -15,6 +15,8 @@ def init():
         s += '\n  y: ' + ans
         ans = raw_input('Please enter the z coordinate of the room:\n')
         s += '\n  z: ' + ans
+        ans = raw_input('Please enter the w coordinate of the room:\n')
+        s += '\n  w: ' + ans
         ans = raw_input('Please enter the name of the icon for the room: (Available image names: common_area2, doc, gym, kitchen, livingroom, my_room, spoon)\n')
         s += '\n  image: "' + ans + '"'
         while not (ans == 'y' or ans == 'n'):

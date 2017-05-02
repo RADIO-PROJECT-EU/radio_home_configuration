@@ -22,6 +22,7 @@ def init():
         name = ''
         x = ''
         y = ''
+        w = ''
         z = ''
         image = ''
         for n, v in room.items():
@@ -33,9 +34,11 @@ def init():
                 y = str(v)
             elif n == 'z':
                 z = str(v)
+            elif n == 'w':
+                w = str(v)
             elif n == 'image':
                 image = v
-        s_.data += name + ',' + x + ',' + y + ',' + z + ',' + image
+        s_.data += name + ',' + x + ',' + y + ',' + z + ',' + w + ',' + image
     publisher.publish(s_)
     while not rospy.is_shutdown():
         rospy.spin()
