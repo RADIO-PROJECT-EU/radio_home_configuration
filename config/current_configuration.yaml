@@ -1,19 +1,15 @@
 
 -
-  name: "kitchen"
-  x: 12
-  y: 34
-  z: 56
-  image: "kitchen"
--
-  name: "gym"
-  x: 99
-  y: 88
-  z: 77
-  image: "gym"
--
-  name: "my room"
-  x: 3.4
-  y: 5.6
-  z: 7.7
+  name: "My room"
+  x: -2.73247146606
+  y: 7.30407047272
+  z: -0.462481110619
+  w: 0.8866291346
   image: "my_room"
+-
+  name: "Doctor's Room"
+  x: 0.0371704101562
+  y: 2.03461790085
+  z: 0.826253192842
+  w: 0.563298909388
+  image: "doc"
